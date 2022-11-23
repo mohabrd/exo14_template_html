@@ -9,11 +9,25 @@
     <title>exo 14 template html</title>
     <style>
         .cote {
-            display: inline-block;
+            display: inline-flex;
+            margin-top: -3em;
+            text-align: center;
+            padding: 1em;
+        }
+
+        #decale {
+            padding-left: 8em;
         }
 
         .centrer {
-            text-align: center;
+            align-items: center;
+            display: flex;
+            padding-left: 20em;
+        }
+
+        .img {
+            
+            margin-top: 1.5em;
         }
     </style>
 </head>
@@ -21,21 +35,25 @@
 <body>
 
     <header>
-
-        <!-- div.centrer>nav>ul>li.cote*7>a -->
-        <div class="centrer">
-            <nav>
-                <ul>
-                    <li class="cote"><a href="">ACCUEIL</a></li>
-                    <li class="cote"><a href="">A PROPOS</a></li>
-                    <li class="cote"><a href="">COWORKING</a></li>
-                    <li class="cote"><a href="">CODING SCHOOL</a></li>
-                    <li class="cote"><a href="">AGENDA</a></li>
-                    <li class="cote"><a href="">FORMATIONS</a></li>
-                    <li class="cote"><a href="">PRESSE</a></li>
-                </ul>
-            </nav>
-        </div>
+        
+        <nav>
+            <div class="img"><img src="https://molengeek.com/wp-content/uploads/2022/02/MG_LOGO_V3x50-1.png" alt="logo molengeek">
+            </div>
+            <!-- div.centrer>nav>ul>img^li.cote*7>a -->
+            <div class="centrer">
+        
+                    <p class="cote"><a href="">ACCUEIL</a></p>
+                    <p class="cote"><a href="">A PROPOS</a></p>
+                    <p class="cote"><a href="">COWORKING</a></p>
+                    <p class="cote"><a href="">CODING SCHOOL</a></p>
+                    <p class="cote"><a href="">AGENDA</a></p>
+                    <p class="cote"><a href="">FORMATIONS</a></p>
+                    <p class="cote"><a href="">PRESSE</a></p>
+                    <p class="cote" id="decale"><a href="">TESTEZ LE COWORKING !</a></p>
+    
+            </div>
+        </nav>
+        
     </header>
 
 
