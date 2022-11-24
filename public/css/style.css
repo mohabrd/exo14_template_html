@@ -1,0 +1,27 @@
+.cote {
+    display: inline-flex;
+    margin-top: -3em;
+    text-align: center;
+    padding: 1em;
+}
+
+#decale {
+    padding-left: 8em;
+}
+
+.centrer {
+    align-items: center;
+    display: flex;
+    padding-left: 20em;
+}
+
+.img {
+    margin-top: 1.5em;
+}
+
+.footer {
+    display: flex;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+}
