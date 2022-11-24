@@ -1,3 +1,44 @@
+.petitenav {
+    position: relative;
+    background-color: violet;
+    /* padding: 2.5px; */
+    border-radius: 5px;
+    
+    
+    
+}
+
+.imgpetitenav {
+    position: relative;
+
+
+}
+
+.elementsnav {
+    position: relative;
+    padding-left: 500px;
+    bottom: 30px;
+
+}
+.input {
+    position: relative;
+    padding-left: 580px;
+    padding-top: px;
+}
+
+.searchbar{
+    border-radius: 5px;
+    height: 25px;
+
+}
+
+.btn {
+    background-color: lightgreen;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
 .cote {
     display: inline-flex;
     margin-top: -3em;
